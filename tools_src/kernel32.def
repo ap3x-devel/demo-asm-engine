@@ -1,0 +1,12 @@
+LIBRARY kernel32.dll
+EXPORTS
+ExitProcess@4
+GetModuleHandleA@4
+CreateFileA@28
+WriteFile@20
+CloseHandle@4
+CreatePipe@16
+SetHandleInformation@12
+CreateProcessA@40
+WaitForSingleObject@8
+Sleep@4

@@ -1,0 +1,21 @@
+LIBRARY user32.dll
+EXPORTS
+CreateWindowExA@48
+GetDC@4
+GetSystemMetrics@4
+PeekMessageA@20
+DispatchMessageA@4
+GetAsyncKeyState@4
+ShowCursor@4
+DialogBoxIndirectParamA@20
+EndDialog@8
+SendDlgItemMessageA@20
+CheckDlgButton@12
+IsDlgButtonChecked@8
+AdjustWindowRect@12
+ChangeDisplaySettingsA@8
+GetClientRect@8
+IsWindow@4
+SetProcessDPIAware@0
+LoadImageA@24
+MessageBoxA@16
